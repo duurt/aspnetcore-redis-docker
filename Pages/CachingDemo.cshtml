@@ -1,0 +1,10 @@
+﻿@page
+@model CachingDemoModel
+@{
+    ViewData["Title"] = "Counter";
+}
+<h2>@ViewData["Title"]</h2>
+
+<p>Page was loaded :-)</p>
+<div>Time now: @Model.PageLoadTime</div>
+<div>Previous load: @Model.PreviousPageLoadTime</div>
