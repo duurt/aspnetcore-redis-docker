@@ -15,4 +15,4 @@ The following must be installed:
 ## Steps to run
 * Build: ```docker build -t redis-tryout .```
 * Run: ```docker-compose up``` or ```docker-compose up -d```
-* In a web browser, go to ```server-name:5050``` e.g. ```localhost:5050```
+* In a web browser, go to ```server-name:5000``` e.g. ```localhost:5000```
