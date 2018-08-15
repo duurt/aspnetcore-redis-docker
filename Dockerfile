@@ -1,9 +1,8 @@
 FROM microsoft/dotnet:sdk AS build-env
 WORKDIR /app
 
-# Copy everything and restore
+# Copy everything
 COPY . ./
-RUN dotnet restore
 
 # Build
 RUN dotnet publish redisTryout.csproj -c Release -o /app/out
